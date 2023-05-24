@@ -1,0 +1,94 @@
+/* Apply general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:rgb(220, 159, 179);
+
+  
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Chokokutai ;
+    color: black;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style the form container */
+  #form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the search form */
+  #form-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  #form-search label {
+    margin-right: 10px;
+    font-family: Darumadrop One ;
+  }
+  
+  #form-search input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .search-btn {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Darumadrop One ;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the GIF container */
+  #gifs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .gifs {
+    flex: 0 0 calc(33.33% - 25px);
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .gifs img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the remove all button */
+  .rmvBtn {
+    margin-left: 10px;
+    background-color: #dc3545;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Darumadrop One ;
+
+  }
+  
+  .rmvBtn:hover {
+    background-color: #b71c1c;
+  }
+  
